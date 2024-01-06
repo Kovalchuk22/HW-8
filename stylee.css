@@ -1,0 +1,31 @@
+.lesson-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.lesson-container li {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.lesson-container .monday li:nth-child(odd) {
+    background-color: #ff9999;
+}  
+.lesson-container .monday li:nth-child(even) {
+    background-color: #ffcccc;
+}  
+.lesson-container .tuesday li:first-child {
+    font-weight: bold;
+}
+.lesson-container .tuesday li:last-child {
+    text-decoration: underline;
+}
+.lesson-container .wednesday li:hover {
+    background-color: #ccffcc;
+}
+
+.lesson-container .thursday li:only-child {
+    color: #3333ff;
+}
+.lesson-container .friday li:not(:last-child) {
+    border: 3px solid #666;
+}

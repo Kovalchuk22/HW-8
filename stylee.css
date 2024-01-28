@@ -1,31 +1,51 @@
-.lesson-container ul {
-    list-style-type: none;
-    padding: 0;
-}
-.lesson-container li {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-}
-.lesson-container .monday li:nth-child(odd) {
-    background-color: #ff9999;
-}  
-.lesson-container .monday li:nth-child(even) {
-    background-color: #ffcccc;
-}  
-.lesson-container .tuesday li:first-child {
-    font-weight: bold;
-}
-.lesson-container .tuesday li:last-child {
-    text-decoration: underline;
-}
-.lesson-container .wednesday li:hover {
-    background-color: #ccffcc;
+.hrefs:focus{
+  color: deeppink;
 }
 
-.lesson-container .thursday li:only-child {
-    color: #3333ff;
+.hreffs:focus {
+  color: cyan;
 }
-.lesson-container .friday li:not(:last-child) {
-    border: 3px solid #666;
+
+.hrefffs:focus {
+  color: gold;
+}
+
+.hreffffs:link {
+  background-color: black;
+}
+
+.hrefffffs:visited {
+  color: cyan;
+}
+
+.hreffffs:visited {
+  background-color: lime;
+}
+
+.hrefffffs:active {
+  background-color: black;
+}
+
+.lesson-container:hover {
+  color: red;
+}
+
+.item:nth-child(3n) {
+  color: blueviolet;
+}
+
+.item:nth-child(-n+5) {
+  background-color: gold;
+}
+
+.item:nth-child(odd) {
+  font-size: 20px;
+}
+
+.item:nth-child(even) {
+  background-color: aqua;
+}
+
+.item:last-child {
+  background-color: gray;
 }

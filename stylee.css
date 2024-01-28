@@ -26,7 +26,7 @@
   background-color: black;
 }
 
-.lesson-container:hover {
+.item:hover {
   color: red;
 }
 
